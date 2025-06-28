@@ -1,8 +1,8 @@
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const User = require("../schemas/userModel"); // Corrected path
-const Property = require("../models/propertyModel"); // Corrected path
-const Booking = require("../models/bookingModel"); // Corrected path
+const Property = require("../schemas/propertyModel"); // Corrected path
+const Booking = require("../schemas/bookingModel"); // Corrected path
 
 const registerController = async (req, res) => {
   try {
