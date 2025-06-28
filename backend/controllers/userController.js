@@ -1,6 +1,6 @@
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const User = require("../models/userModel"); // Corrected path
+const User = require("../schemas/userModel"); // Corrected path
 const Property = require("../models/propertyModel"); // Corrected path
 const Booking = require("../models/bookingModel"); // Corrected path
 
