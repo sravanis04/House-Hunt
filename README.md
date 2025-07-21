@@ -53,7 +53,7 @@ bash
 
 cd backend
 npm install
-# Create a .env file and add your MongoDB URI and JWT secret
+Create a .env file and add your MongoDB URI and JWT secret
 npm start
 
 
